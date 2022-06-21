@@ -9,10 +9,10 @@ import Header from './components/Header';
 function App() {
   return (
     <div>
-            <Nav></Nav>
-            <Header></Header>
-            <Projects></Projects>
-            <About></About>
+        <Nav />
+        <Header />
+        <Projects />
+        <About />
     </div>
   );
 }
