@@ -1,6 +1,6 @@
 //create template for navbarimport React from "react";
 import React from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+//import { capitalizeFirstLetter } from "../../Utils/helpers";
 
 function About(props) {
     //add categories to nav headings
