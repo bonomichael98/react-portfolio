@@ -19,14 +19,6 @@ function App() {
         <Contact address="Based in Mt.Carmel Ohio" email="bonomichael98@gmail.com" githubLink="https://github.com/bonomichael98" />
     </div>
   );
-}
+};
 
 export default App;
-// address,
-//         email,
-//         githubLink
-// img,
-//     title,
-//     link,
-//     type,
-//     alt
