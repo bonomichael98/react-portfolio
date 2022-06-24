@@ -1,20 +1,6 @@
-//create template for navbarimport React from "react";
 import React from "react";
-//import { capitalizeFirstLetter } from "../../Utils/helpers";
 
 function Nav(props) {
-    //add categories to nav headings
-//   const {
-//     categories = [],
-//     setCurrentCategory,
-//     currentCategory,
-//   } = props;
-
-
-//   const handleClick = (item) => {
-//     console.log(item);
-//     return item;
-//   };
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -26,9 +12,9 @@ function Nav(props) {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ms-auto">
-                        <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#home">Home</a></li>
                         <li className="nav-item"><a className="nav-link" href="#projects">Projects</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#signup">Contact</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>

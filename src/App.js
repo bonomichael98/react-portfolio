@@ -16,12 +16,15 @@ function App() {
         <Projects title="Password Generator" img={img1} githubLink="https://github.com/bonomichael98/javascript-password-generator" alt="password generator" type="Javascript" />
         <Projects title="Password Generator" img={img1} githubLink="https://github.com/bonomichael98/javascript-password-generator" alt="password generator" type="Javascript" />
         <About />
-        <Contact />
+        <Contact address="Based in Mt.Carmel Ohio" email="bonomichael98@gmail.com" githubLink="https://github.com/bonomichael98" />
     </div>
   );
 }
 
 export default App;
+// address,
+//         email,
+//         githubLink
 // img,
 //     title,
 //     link,

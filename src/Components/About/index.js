@@ -1,38 +1,25 @@
 //create template for navbarimport React from "react";
 import React from "react";
+import ReactLogo from "../../assets/img/logo.png"
 //import { capitalizeFirstLetter } from "../../Utils/helpers";
 
 function About(props) {
-    //add categories to nav headings
-//   const {
-//     categories = [],
-//     setCurrentCategory,
-//     currentCategory,
-//   } = props;
-
-
-//   const handleClick = (item) => {
-//     console.log(item);
-//     return item;
-//   };
 
     return (
         <section className="about-section text-center" id="about">
             <div className="container px-4 px-lg-5">
                 <div className="row gx-4 gx-lg-5 justify-content-center">
                     <div className="col-lg-8">
-                        <h2 className="text-white mb-4">Built with Bootstrap 5</h2>
+                        <h2 className="text-white mb-4">Brought to you with React and Bootstrap</h2>
                         <p className="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+                            Michael is a full-stack web developer with a certificate in web development from the Ohio State University.
                         </p>
                     </div>
                 </div>
-                <img className="img-fluid" src="assets/img/ipad.png" alt="..." />
+                <img className="img-fluid" src={ReactLogo} alt="React Logo" />
             </div>
         </section>
     );
-}
+};
 
 export default About;

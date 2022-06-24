@@ -6,9 +6,7 @@ function Contact(props) {
     const {
         address,
         email,
-        githubLink,
-        type,
-        alt
+        githubLink
         } = props;
 
     return (
@@ -41,15 +39,10 @@ function Contact(props) {
                                 <i className="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 className="text-uppercase m-0">Github</h4>
                                 <hr className="my-4 mx-auto" />
-                                <div className="small text-black-50">{githubLink}</div>
+                                <div className="small text-black-50"><a href="https://github.com/bonomichael98">{githubLink}</a></div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="social d-flex justify-content-center">
-                    <a className="mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-                    <a className="mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-                    <a className="mx-2" href="#!"><i className="fab fa-github"></i></a>
                 </div>
             </div>
         </section>
