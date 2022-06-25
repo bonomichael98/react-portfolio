@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.95054abe.chunk.css",
+    "main.js": "/static/js/main.cad66095.chunk.js",
+    "main.js.map": "/static/js/main.cad66095.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0397132c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0397132c.js.map",
+    "static/js/2.51ab0235.chunk.js": "/static/js/2.51ab0235.chunk.js",
+    "static/js/2.51ab0235.chunk.js.map": "/static/js/2.51ab0235.chunk.js.map",
+    "static/js/3.dd96aaa8.chunk.js": "/static/js/3.dd96aaa8.chunk.js",
+    "static/js/3.dd96aaa8.chunk.js.map": "/static/js/3.dd96aaa8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.95054abe.chunk.css.map": "/static/css/main.95054abe.chunk.css.map",
+    "static/js/2.51ab0235.chunk.js.LICENSE.txt": "/static/js/2.51ab0235.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/bg-signup.5b5db837.jpg",
+    "static/media/foodly.eef821b6.png": "/static/media/foodly.eef821b6.png",
+    "static/media/logo.edb839bb.png": "/static/media/logo.edb839bb.png",
+    "static/media/password-generator.e8152167.png": "/static/media/password-generator.e8152167.png",
+    "static/media/restaurant-mockup.ae2d4784.png": "/static/media/restaurant-mockup.ae2d4784.png",
+    "static/media/weather-api.4cb4d0d2.png": "/static/media/weather-api.4cb4d0d2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0397132c.js",
+    "static/js/2.51ab0235.chunk.js",
+    "static/css/main.95054abe.chunk.css",
+    "static/js/main.cad66095.chunk.js"
+  ]
+}
