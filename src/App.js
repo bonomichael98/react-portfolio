@@ -1,3 +1,4 @@
+// let ghpages = require('gh-pages');
 import './App.css';
 import Nav from './Components/Nav';
 import About from './Components/About';
@@ -9,7 +10,7 @@ import img2 from './assets/img/weather-api.png';
 import img3 from './assets/img/foodly.png';
 import img4 from './assets/img/restaurant-mockup.png';
 
-
+// ghpages.publish('dist', function(err) {});
 
 function App() {
   return (
